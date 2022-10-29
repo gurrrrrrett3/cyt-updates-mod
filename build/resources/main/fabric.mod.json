@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "updatemod",
+  "version": "1.0-SNAPSHOT",
+  "name": "Updatemod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/updatemod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.gooch.updatemod.UpdateMod"
+    ]
+  },
+  "mixins": [
+    "updatemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

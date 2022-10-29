@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	dev/gooch/updatemod/mixin/MixinChatHud	Lnet/minecraft/client/MinecraftClient;	client	field_2062
